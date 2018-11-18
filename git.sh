@@ -1,3 +1,4 @@
+cd /root/stock
 rm -r insert
 rm -r update
 rm -r delete

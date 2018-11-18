@@ -1,0 +1,35 @@
+{
+    "id": "5c3fca2d-b8e1-4752-b29b-3aaf11819d2a",
+    "name": "test",
+    "friendlyName": "",
+    "description": "",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "author": "",
+    "version": {
+        "Major": 0,
+        "Minor": 1,
+        "Patch": 0
+    },
+    "instanceNameFormat": "Echo",
+    "inputs": [
+		{
+			"name": "action",
+			"type": "pickList",
+			"label": "Action",
+			"defaultValue": "c",
+			"required": true,
+			"helpMarkDown": "Select the Action to perform",
+			"options": {
+				"c": "Create",
+				"u": "Update",
+				"cu": "Create or Update"
+			}
+		}
+    ],
+    "execution": {
+        "Node": {
+            "target": "index.js"
+        }
+    }
+}
