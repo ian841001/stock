@@ -1,3 +1,0 @@
-git pull
-git revert e6c12fe276d03505a84b5f3088b5583ccaa79cae
-git push
